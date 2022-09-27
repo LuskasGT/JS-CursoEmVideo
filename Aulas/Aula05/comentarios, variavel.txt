@@ -1,0 +1,39 @@
+							COMENTARIOS
+
+//   ou   /*  */  --> esse são para fazer comentarios
+
+	// em uma linha
+
+	/* 
+	Para
+	várias 
+	linhas
+	*/  
+	
+	
+------------------------------------
+							VARIAVEIS
+var a1 = 'carro1'
+var a1 = "carro2"   // no final se vc printar o a1  vc vai ter a resposta de  "carro2"
+var a1 = `carro3`
+var a1 = null     // ele vai tirar o valor de dentro dele 
+a1 = 'GT'
+
+var a1  --> ele se chama identificadores, eles tem que começa por letra, $ ou _  ,mas nunca com número  (pode acentuar as palavras e como sempre não pode colocar espaço), 
+		não pode colocar o nome de variavel com plavra reservada, exe: function, var... No caso que eles já fariam alguma coisa, então não usa
+		
+
+------------------------------------
+							TIPOS PRIMITIVOS - BÁSICOS
+							
+tipo de variavel com o seu nome, exemplo o 5 seria o number, embaixo podemos ver mais exemplos e o que ele aceita
+							
+number   =  5    -12    0.6               
+string   =   "Google"   'GT'    `CPF`
+boolean  =   true   false
+
+Para saber o tipo de variavel vc manda      typeof VARIAVEl,   typeof nome    //a resposta vai ser string 
+------------------------------------
+							
+		
+		
