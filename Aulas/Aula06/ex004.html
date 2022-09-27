@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exer 004</title>
+</head>
+<body>
+    <style>
+        body{
+            font:normal 20px 
+        }
+    </style>
+    <script>
+        nome = prompt("Digite seu nome: ")
+        document.write (`Seu nome tem ${nome.length} caracteres//`)
+
+        salario = Number(prompt ("Digite seu saldo: "))
+        document.write (`Você tem ${salario.toFixed(2).replace ('.',',')}//`) 
+        document.write (salario.toLocaleString ('pt-BR', {style:'currency', currency: 'BRL'}))
+    </script>
+</body>
+</html>

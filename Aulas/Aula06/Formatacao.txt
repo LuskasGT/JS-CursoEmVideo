@@ -1,0 +1,68 @@
+					FORMATANDO VARIAVEIS
+
+------------------------------ INT ------------------------------
+Para transformar uma variavel do tipo STRING PARA uma do tipo de número INT vc manda 
+	Number.parseInt (comando)
+Na pratica ficaria assim:
+
+	var n1 = Number.parseInt (window.prompt ('Digite um numero: '))
+	
+				OU
+				
+	var n1 = Number(window.prompt ('Digite um numero: '))
+	
+você pode usar apenas o Number(comando), vai funcionar(JS descobre o tipo sozinho), mas caso queira forçar ele a usar um, usa o de cima desse
+
+------------------------------ FLOAT ------------------------------
+
+Caso queira em FLOAT só troca para o float msm 
+	Number.parseFloat (comando)
+	
+	
+	
+------------------------------ STRING ------------------------------
+	
+Caso queira o NUMERO para STRING
+
+	String(VARIAVEL)
+	VARIAVEL.String
+	
+na pratica: 
+
+       alert("A soma final foi "+ String(total))
+       
+       
+       
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+------------------------------ PARA FORMATAR UM TEXTO ------------------------------
+
+Até então, estavamos usando com um   +VARIAVEL  abrindo os   ""   e fechando, mas agora vamos usar o TEMPLATE STRING
+
+`Eu estou vendo o Curso Em Video ${VARIAVEL}`
+
+Fica esperto  estamos usando a crase   ` `
+
+
+você pode saber quantos caracteres tem a sua string usando:
+	VARIAVEL.length
+	
+Pode transformar todas as palavras em maiusculas e minusculas
+	VARIAVEL.toUpperCase()  
+	VARIAVEL.toLowerCase()  
+
+Para que não fique faltando digito como se fosse dinheiro ou nota, você pode usar o Fixed:
+	salario.toFixed(2)       //seria a quantidade de digito depois do .   ou  ,
+
+Caso queira trocar um  .  por  ,   você manda o famoso   .replace ()
+	salario.toFixed(2).replace('.' , ',')
+
+
+Caso queira deixa com o valor da moeda local do País coloca isso
+	VARIAVEL.toLocaleString ('pt-BR', {style:'currency', currency: 'BRL'})
+
+
+
+
+
