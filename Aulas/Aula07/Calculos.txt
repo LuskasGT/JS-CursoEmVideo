@@ -1,0 +1,29 @@
+------------------  Aritméticas  ------------------
+
++ -> SOMA (2 + 5 = 7)
+- -> SUBSTRAÇÃO (2 - 5 = 3)
+* -> MULTIPLICAÇÃO (2 * 5 = 10)
+/ -> DIVISÃO  (5 / 2 = 2.5)
+% -> DIVISÃO INTEIRA (5 / 2 = 1) /*Não vai ser colocado . para continuara a conta, o que deu, deu*/
+** -> POTÊNCIA (5 ** 2 = 25)
+ 
+As ordem de precedência de quem começa primeiro é a mesma a da matemática
+
+a variavel pode fazer a soma mais rapido do que você colocar na maneira simples, exemplo:
+    simples
+        n = n + 4
+
+    maneira rapida (serve para o todos da lista tbm)
+        n += 4 
+
+
+ ------------------  Incremento  ------------------
+
+ X = 5
+
+ x = x + 1   ou   X += 1     -> 6
+ x = x - 1   ou   X -= 1     -> 1 
+
+    maneira mais rapida
+    X ++
+    X --   (seria com o valor 1 mesmo, daria a mesma resposta da lista de cima)
