@@ -1,0 +1,20 @@
+
+Quando aparecer:
+
+!   -> Siginifica NEGAÇÃO    (TRUE e FALSE)
+&&  -> Siginifica CONJUNÇÃO  (meio que um E, uma caneta azul E uma vermelha)
+||  -> Siginifica DISJUNÇÃO  (meio que um OU, essa cantea OU aquela)l
+
+
+---------------------------- TERNARIO ------------------------------
+
+? 
+:
+
+exemplo:
+
+teste ? true : FALSE  (se for verdade aparece o primeiro, senão aparece o segundo)
+
+media >= 7.0 ? "Aprovado" : "Reprovado"
+var res = x % 2 == 0 ? 5 : 9
+var r = idade >= 18 ? 'MAIOR' : 'MENOR'

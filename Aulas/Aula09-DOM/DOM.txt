@@ -1,0 +1,14 @@
+DOM -> Document Object Model
+
+Ele da acesso aos componentes dentro do seu pc
+
+Você tem como acessar por 5 tipos:
+por Marca;
+por Id;
+por Nome;
+por Classe;
+por Seletor;
+
+--------------------------------------------------
+Marca -> um dos comandos que vc consegue usar é:
+getElementsByTgaName()     -> Seleciona varios tipos de elementos da msm tag
